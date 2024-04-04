@@ -3,9 +3,9 @@
         "details": [{
             "appIDs": ["4QMDKC8VLJ.app.namecare.ios"],
             "components": [{
-                "/": "/recover/*",
-                "comment": "Matches any URL whose path starts with /stock/"
+                "/": "/recover",
+                "comment": "Matches any URL whose path starts with /stock"
             }]
         }]
     }
-}
+}:
