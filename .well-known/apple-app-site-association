@@ -1,11 +1,13 @@
 {
-    "applinks": {
-        "details": [{
-            "appIDs": ["4QMDKC8VLJ.app.namecare.ios"],
-            "components": [{
-                "/": "/recover",
-                "comment": "Matches any URL whose path starts with /stock"
-            }]
-        }]
-    }
-}:
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "Y357EKMWLB.app.namecare.ios" ],
+             "paths": ["/recover/*"]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "Y357EKMWLB.app.namecare.ios" ]
+   }
+}
